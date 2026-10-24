@@ -12,7 +12,7 @@ router = APIRouter(tags=["invoices"])
 
 
 @router.post("/invoices/upload")
-async def upload(files: list[UploadFile] = File(...), db: Session = Depends(get_db))::
+async def upload(files: list[UploadFile] = File(...), db: Session = Depends(get_db)):
     os.makedirs(UPLOAD_DIR, exist_ok=True)
     out = []
     for f in files:
