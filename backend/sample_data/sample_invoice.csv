@@ -1,0 +1,5 @@
+supplier_name,description,quantity,unit,unit_price,total_amount,date
+Supplier A,Corrugated boxes,5000,pcs,24,120000,2026-10-01
+PackWrap Ltd,Plastic stretch wrap rolls,400,rolls,350,140000,2026-10-03
+FastMove Logistics,Road freight - Bengaluru to Chennai,12,trips,9000,108000,2026-10-05
+Steel Traders,Mild steel sheets,200,kg,85,17000,2026-10-06

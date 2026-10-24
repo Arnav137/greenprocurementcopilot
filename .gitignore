@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+app.db
+uploads/
+reports/
+.env
+node_modules/
