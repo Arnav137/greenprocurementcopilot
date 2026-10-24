@@ -1,6 +1,6 @@
 import os
 from uuid import uuid4
-from fastapi import APIRouter, Depends, UploadFile, HTTPException
+from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
 from sqlalchemy.orm import Session
 
 from ..database import get_db
