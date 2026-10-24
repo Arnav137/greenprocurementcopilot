@@ -1,0 +1,7 @@
+offer_id,product_description,category,unit,unit_price,currency,delivery_days,recycled_content_or_environmental_claim,data_status,evidence_url
+SIM-SUP-01,Corrugated shipping carton,Packaging,piece,0.0,INR,7,Not provided,SIMULATED - price/delivery/evidence require verification,
+SIM-SUP-02,Corrugated shipping carton,Packaging,piece,0.0,INR,10,Not provided,SIMULATED - price/delivery/evidence require verification,
+SIM-SUP-03,Corrugated shipping carton,Packaging,piece,0.0,INR,5,Not provided,SIMULATED - price/delivery/evidence require verification,
+SIM-SUP-04,GPS navigation unit,Electronics,each,0.0,INR,14,Not provided,SIMULATED - price/delivery/evidence require verification,
+SIM-SUP-05,GPS navigation unit,Electronics,each,0.0,INR,21,Not provided,SIMULATED - price/delivery/evidence require verification,
+SIM-SUP-06,GPS navigation unit,Electronics,each,0.0,INR,12,Not provided,SIMULATED - price/delivery/evidence require verification,

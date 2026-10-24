@@ -1,0 +1,34 @@
+{
+  "purpose": "Demo procurement eligibility guardrails. Configure for the relevant product, industry, and jurisdiction before real use.",
+  "rules": [
+    {
+      "id": "G1",
+      "name": "Required compliance evidence",
+      "action": "HOLD_FOR_REVIEW",
+      "condition": "Required legal/safety/compliance documentation is missing or unverified",
+      "reason": "Do not recommend purchase until a qualified human verifies requirements."
+    },
+    {
+      "id": "G2",
+      "name": "Critical safety failure",
+      "action": "INELIGIBLE",
+      "condition": "A qualified reviewer confirms the product fails an applicable mandatory safety or legal requirement",
+      "reason": "Cost or carbon savings must not override a confirmed critical compliance failure."
+    },
+    {
+      "id": "G3",
+      "name": "Missing data",
+      "action": "FLAG",
+      "condition": "Price, quantity, unit, delivery, specification, or emissions evidence is missing",
+      "reason": "Do not invent missing values; request evidence or mark as unknown."
+    },
+    {
+      "id": "G4",
+      "name": "Like-for-like comparison",
+      "action": "REQUIRE_REVIEW",
+      "condition": "Alternatives differ in technical specification, quality, quantity, or compatibility",
+      "reason": "Compare only functionally suitable products or require expert approval."
+    }
+  ],
+  "note": "These are product-design guardrails, not legal advice or a determination of applicable law."
+}

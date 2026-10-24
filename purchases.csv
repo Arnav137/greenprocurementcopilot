@@ -1,0 +1,6 @@
+purchase_id,purchase_date,supplier_name,category,product_description,quantity,unit,unit_price,currency,data_status
+DEMO-001,2026-10-01,Arcu Packaging,Packaging,Corrugated shipping carton,500,piece,0.0,INR,SIMULATED - replace with actual/sample PO values
+DEMO-002,2026-10-03,Ante Corp.,Electronics,GPS navigation unit,25,each,0.0,INR,SIMULATED - replace with actual/sample PO values
+DEMO-003,2026-10-05,Flextronics,Electronics,GPS front bezel assembly,100,each,0.0,INR,SIMULATED - replace with actual/sample PO values
+DEMO-004,2026-10-08,SanMina SCI,Electronics,Circuit board assembly,40,each,0.0,INR,SIMULATED - replace with actual/sample PO values
+DEMO-005,2026-10-10,Arcu Packaging,Packaging,Protective packaging material,200,kg,0.0,INR,SIMULATED - replace with actual/sample PO values
